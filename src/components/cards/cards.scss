@@ -1,0 +1,21 @@
+
+.hero-card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    box-shadow: -10px 5px 5px #cccccc;
+    img {
+        max-height: 70%;
+        max-width: 90%;
+        box-shadow: -10px 5px 5px #cccccc;
+    }
+    h2 {
+        max-width: 80%;
+        text-align: center;
+    }
+}
